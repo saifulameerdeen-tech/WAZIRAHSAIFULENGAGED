@@ -371,66 +371,71 @@
     </div>
 </header>
 
-        <!-- Invitation Section -->
-        <section id="jemputan" class="p-6 sm:p-10 text-center text-white relative overflow-hidden min-h-[90vh] flex items-center justify-center">
-            
-            <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-fill z-0">
-                <source src="bg-video.mp4" type="video/mp4">
-            </video>
+        <!-- Section: Jemputan -->
+<section id="jemputan" class="relative min-h-screen flex items-center justify-center text-center p-4 sm:p-6 overflow-hidden">
+    
+    <!-- Background Video -->
+    <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-fill z-0">
+        <source src="bg-video.mp4" type="video/mp4">
+    </video>
 
-            <ul class="bg-stars">
-                <li></li><li class="star-sparkle"></li><li></li><li></li><li class="star-sparkle"></li><li></li><li></li><li></li><li class="star-sparkle"></li><li></li><li></li><li></li>
-            </ul>
+    <!-- Starry Animation Layer -->
+    <ul class="bg-stars">
+        <li></li><li class="star-sparkle"></li><li></li><li></li><li class="star-sparkle"></li><li></li><li></li><li></li><li class="star-sparkle"></li><li></li><li></li><li></li>
+    </ul>
 
-            <!-- Assalamualaikum -->
-        <h2 class="pop-out font-serif text-2xl sm:text-3xl text-wedding-gold-light font-semibold mb-2" style="transition-delay: 100ms;">
+    <!-- Main Card Frame -->
+    <div class="z-10 text-white relative glass-dark p-6 sm:p-8 rounded-3xl border border-wedding-gold/30 my-auto w-full max-w-md mx-auto flex flex-col items-center justify-center text-center">
+        
+        <!-- Assalamualaikum -->
+        <h2 class="pop-out font-serif text-2xl sm:text-3xl text-wedding-gold-light font-semibold mb-3">
             Assalamualaikum
         </h2>
 
-        <!-- Greeting Text -->
-        <p class="pop-out text-xs sm:text-sm text-gray-200 font-light max-w-xs mx-auto leading-relaxed mb-6" style="transition-delay: 200ms;">
+        <!-- Greeting Subtitle -->
+        <p class="pop-out text-xs sm:text-sm text-wedding-gold font-light max-w-xs mx-auto leading-relaxed mb-6 w-full text-center">
             Dengan penuh kesyukuran, kami ingin menjemput Tuan / Puan ke majlis pertunangan anak kami dikasihi
         </p>
 
         <!-- Couple Names -->
-        <div class="my-4">
-            <h1 class="pop-out font-['Alex_Brush'] text-5xl sm:text-6xl text-wedding-gold-light drop-shadow-md leading-tight" style="transition-delay: 300ms;">
+        <div class="my-2 w-full flex flex-col items-center">
+            <h1 class="pop-out font-['Alex_Brush'] text-5xl sm:text-6xl text-wedding-gold-light drop-shadow-md leading-tight">
                 Nur Wazirah
             </h1>
-            <div class="pop-out font-['Alex_Brush'] text-4xl sm:text-5xl text-wedding-gold-light my-1" style="transition-delay: 400ms;">
+            <div class="pop-out font-['Alex_Brush'] text-4xl sm:text-5xl text-wedding-gold-light my-1">
                 &amp;
             </div>
-            <h1 class="pop-out font-['Alex_Brush'] text-5xl sm:text-6xl text-wedding-gold-light drop-shadow-md leading-tight" style="transition-delay: 500ms;">
+            <h1 class="pop-out font-['Alex_Brush'] text-5xl sm:text-6xl text-wedding-gold-light drop-shadow-md leading-tight">
                 Muhammad Saiful
             </h1>
         </div>
 
         <!-- Date Layout -->
-        <div class="mt-6 flex flex-col items-center">
-            <span class="pop-out font-serif text-xs tracking-[0.35em] uppercase text-wedding-gold-light mb-1" style="transition-delay: 600ms;">
+        <div class="mt-6 w-full flex flex-col items-center justify-center text-center">
+            <span class="pop-out font-serif text-xs tracking-[0.35em] uppercase text-wedding-gold-light mb-1">
                 NOVEMBER
             </span>
-            <div class="pop-out flex items-center justify-center gap-4 font-serif text-wedding-gold-light my-1" style="transition-delay: 700ms;">
-                <span class="text-sm font-semibold tracking-widest">AHAD</span>
-                <span class="text-5xl font-bold font-serif text-wedding-gold leading-none">8</span>
-                <span class="text-sm font-semibold tracking-widest">2026</span>
+            <div class="pop-out flex items-center justify-center gap-3 font-serif text-wedding-gold-light my-1">
+                <span class="text-xs sm:text-sm font-semibold tracking-widest">AHAD</span>
+                <span class="text-4xl sm:text-5xl font-bold font-serif text-wedding-gold leading-none">8</span>
+                <span class="text-xs sm:text-sm font-semibold tracking-widest">2026</span>
             </div>
         </div>
 
-        <!-- Event Time -->
-        <p class="pop-out text-sm font-serif tracking-wider text-gray-200 mt-5" style="transition-delay: 800ms;">
-            12.00 pm – 3.30 pm
+        <!-- Time -->
+        <p class="pop-out text-sm font-serif tracking-wider text-wedding-gold mt-4">
+            12.00 PM – 3.30 PM
         </p>
 
         <!-- Venue -->
-        <div class="pop-out mt-4" style="transition-delay: 900ms;">
+        <div class="pop-out mt-4 w-full text-center">
             <p class="font-['Alex_Brush'] text-2xl text-wedding-gold-light">Bertempat di</p>
             <p class="font-serif text-sm text-wedding-gold font-semibold uppercase tracking-wider mt-1">
                 Kompleks Masyarakat Penyayang
             </p>
         </div>
-
-        </section>
+        </div>
+</section>
 
         <!-- Event Details Section -->
         <section id="acara" class="p-6 sm:p-10 text-white relative overflow-hidden min-h-[90vh] flex items-center justify-center">
@@ -534,7 +539,7 @@
 
         <!-- Footer -->
         <footer class="p-8 pb-24 md:pb-8 bg-wedding-dark text-white text-center border-t border-wedding-gold/30">
-            <p class="font-serif font-semibold text-2xl text-wedding-gold-light">SAIFUL & WAZIRAH</p>
+            <p class="font-serif font-semibold text-2xl text-wedding-gold-light">WAZIRAH & SAIFUL</p>
             <p class="text-[10px] text-gray-500 mt-6">Digital Card Inspired by SAIFUL</p>
         </footer>
 
